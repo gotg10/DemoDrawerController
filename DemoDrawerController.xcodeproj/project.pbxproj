@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C08FD7CF76C4B7E92D5584 /* Pods_DemoDrawerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B52CA6F8ED263C93D445B9 /* Pods_DemoDrawerController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FB8734B41B84A4080042E569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8734B31B84A4080042E569 /* AppDelegate.swift */; };
+		FB8734B61B84A4080042E569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8734B51B84A4080042E569 /* ViewController.swift */; };
+		FB8734B91B84A4080042E569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8734B71B84A4080042E569 /* Main.storyboard */; };
+		FB8734BB1B84A4080042E569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8734BA1B84A4080042E569 /* Assets.xcassets */; };
+		FB8734BE1B84A4080042E569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8734BC1B84A4080042E569 /* LaunchScreen.storyboard */; };
+		FB8734C91B84A4080042E569 /* DemoDrawerControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8734C81B84A4080042E569 /* DemoDrawerControllerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB8734C51B84A4080042E569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8734A81B84A4080042E569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8734AF1B84A4080042E569;
+			remoteInfo = DemoDrawerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015380F63E35131E141C139E /* Pods-DemoDrawerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoDrawerController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoDrawerController/Pods-DemoDrawerController.debug.xcconfig"; sourceTree = "<group>"; };
+		094841A85BB5FFC27DDB57F1 /* Pods-DemoDrawerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoDrawerController.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoDrawerController/Pods-DemoDrawerController.release.xcconfig"; sourceTree = "<group>"; };
+		33B52CA6F8ED263C93D445B9 /* Pods_DemoDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8734B01B84A4080042E569 /* DemoDrawerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoDrawerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8734B31B84A4080042E569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB8734B51B84A4080042E569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB8734B81B84A4080042E569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB8734BA1B84A4080042E569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB8734BD1B84A4080042E569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB8734BF1B84A4080042E569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8734C41B84A4080042E569 /* DemoDrawerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoDrawerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8734C81B84A4080042E569 /* DemoDrawerControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDrawerControllerUITests.swift; sourceTree = "<group>"; };
+		FB8734CA1B84A4080042E569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8734AD1B84A4080042E569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C08FD7CF76C4B7E92D5584 /* Pods_DemoDrawerController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8734C11B84A4080042E569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEF002B38A4169D41AD46B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33B52CA6F8ED263C93D445B9 /* Pods_DemoDrawerController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4EC6A8F15E26872ED5643CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				015380F63E35131E141C139E /* Pods-DemoDrawerController.debug.xcconfig */,
+				094841A85BB5FFC27DDB57F1 /* Pods-DemoDrawerController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB8734A71B84A4080042E569 = {
+			isa = PBXGroup;
+			children = (
+				FB8734B21B84A4080042E569 /* DemoDrawerController */,
+				FB8734C71B84A4080042E569 /* DemoDrawerControllerUITests */,
+				FB8734B11B84A4080042E569 /* Products */,
+				D4EC6A8F15E26872ED5643CE /* Pods */,
+				10DEF002B38A4169D41AD46B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8734B11B84A4080042E569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8734B01B84A4080042E569 /* DemoDrawerController.app */,
+				FB8734C41B84A4080042E569 /* DemoDrawerControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8734B21B84A4080042E569 /* DemoDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				FB8734B31B84A4080042E569 /* AppDelegate.swift */,
+				FB8734B51B84A4080042E569 /* ViewController.swift */,
+				FB8734B71B84A4080042E569 /* Main.storyboard */,
+				FB8734BA1B84A4080042E569 /* Assets.xcassets */,
+				FB8734BC1B84A4080042E569 /* LaunchScreen.storyboard */,
+				FB8734BF1B84A4080042E569 /* Info.plist */,
+			);
+			path = DemoDrawerController;
+			sourceTree = "<group>";
+		};
+		FB8734C71B84A4080042E569 /* DemoDrawerControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8734C81B84A4080042E569 /* DemoDrawerControllerUITests.swift */,
+				FB8734CA1B84A4080042E569 /* Info.plist */,
+			);
+			path = DemoDrawerControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8734AF1B84A4080042E569 /* DemoDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8734CD1B84A4080042E569 /* Build configuration list for PBXNativeTarget "DemoDrawerController" */;
+			buildPhases = (
+				514BB9F1A64895B4231A690D /* Check Pods Manifest.lock */,
+				FB8734AC1B84A4080042E569 /* Sources */,
+				FB8734AD1B84A4080042E569 /* Frameworks */,
+				FB8734AE1B84A4080042E569 /* Resources */,
+				229F7E5A3B2BBCE2C232F953 /* Embed Pods Frameworks */,
+				285B6FE60A7E41EEEF713B36 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoDrawerController;
+			productName = DemoDrawerController;
+			productReference = FB8734B01B84A4080042E569 /* DemoDrawerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB8734C31B84A4080042E569 /* DemoDrawerControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8734D01B84A4080042E569 /* Build configuration list for PBXNativeTarget "DemoDrawerControllerUITests" */;
+			buildPhases = (
+				FB8734C01B84A4080042E569 /* Sources */,
+				FB8734C11B84A4080042E569 /* Frameworks */,
+				FB8734C21B84A4080042E569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8734C61B84A4080042E569 /* PBXTargetDependency */,
+			);
+			name = DemoDrawerControllerUITests;
+			productName = DemoDrawerControllerUITests;
+			productReference = FB8734C41B84A4080042E569 /* DemoDrawerControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8734A81B84A4080042E569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jumpei Katayama";
+				TargetAttributes = {
+					FB8734AF1B84A4080042E569 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FB8734C31B84A4080042E569 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FB8734AF1B84A4080042E569;
+					};
+				};
+			};
+			buildConfigurationList = FB8734AB1B84A4080042E569 /* Build configuration list for PBXProject "DemoDrawerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8734A71B84A4080042E569;
+			productRefGroup = FB8734B11B84A4080042E569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8734AF1B84A4080042E569 /* DemoDrawerController */,
+				FB8734C31B84A4080042E569 /* DemoDrawerControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8734AE1B84A4080042E569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8734BE1B84A4080042E569 /* LaunchScreen.storyboard in Resources */,
+				FB8734BB1B84A4080042E569 /* Assets.xcassets in Resources */,
+				FB8734B91B84A4080042E569 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8734C21B84A4080042E569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		229F7E5A3B2BBCE2C232F953 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoDrawerController/Pods-DemoDrawerController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		285B6FE60A7E41EEEF713B36 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoDrawerController/Pods-DemoDrawerController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		514BB9F1A64895B4231A690D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8734AC1B84A4080042E569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8734B61B84A4080042E569 /* ViewController.swift in Sources */,
+				FB8734B41B84A4080042E569 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8734C01B84A4080042E569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8734C91B84A4080042E569 /* DemoDrawerControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB8734C61B84A4080042E569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8734AF1B84A4080042E569 /* DemoDrawerController */;
+			targetProxy = FB8734C51B84A4080042E569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB8734B71B84A4080042E569 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8734B81B84A4080042E569 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB8734BC1B84A4080042E569 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8734BD1B84A4080042E569 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB8734CB1B84A4080042E569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB8734CC1B84A4080042E569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8734CE1B84A4080042E569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015380F63E35131E141C139E /* Pods-DemoDrawerController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoDrawerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.DemoDrawerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB8734CF1B84A4080042E569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094841A85BB5FFC27DDB57F1 /* Pods-DemoDrawerController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoDrawerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.DemoDrawerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB8734D11B84A4080042E569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoDrawerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.DemoDrawerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoDrawerController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB8734D21B84A4080042E569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoDrawerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.DemoDrawerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoDrawerController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8734AB1B84A4080042E569 /* Build configuration list for PBXProject "DemoDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8734CB1B84A4080042E569 /* Debug */,
+				FB8734CC1B84A4080042E569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8734CD1B84A4080042E569 /* Build configuration list for PBXNativeTarget "DemoDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8734CE1B84A4080042E569 /* Debug */,
+				FB8734CF1B84A4080042E569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8734D01B84A4080042E569 /* Build configuration list for PBXNativeTarget "DemoDrawerControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8734D11B84A4080042E569 /* Debug */,
+				FB8734D21B84A4080042E569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB8734A81B84A4080042E569 /* Project object */;
+}

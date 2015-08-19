@@ -1,0 +1,26 @@
+PODS:
+  - DrawerController (1.0.4):
+    - DrawerController/Core (= 1.0.4)
+    - DrawerController/DrawerVisualStates (= 1.0.4)
+  - DrawerController/Core (1.0.4)
+  - DrawerController/DrawerVisualStates (1.0.4):
+    - DrawerController/Core
+
+DEPENDENCIES:
+  - DrawerController (from `https://github.com/sascha/DrawerController.git`, branch
+    `swift-2.0`)
+
+EXTERNAL SOURCES:
+  DrawerController:
+    :branch: swift-2.0
+    :git: https://github.com/sascha/DrawerController.git
+
+CHECKOUT OPTIONS:
+  DrawerController:
+    :commit: fc197e4990eddabc4ab1f77baed10f74141e28db
+    :git: https://github.com/sascha/DrawerController.git
+
+SPEC CHECKSUMS:
+  DrawerController: 80b7f2bdfe67f93b6d0991ed6034cd5ce331811d
+
+COCOAPODS: 0.38.2
