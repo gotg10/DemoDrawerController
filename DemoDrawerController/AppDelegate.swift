@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // DrwerController initialize
         let storybord = UIStoryboard(name: "Main", bundle: nil)
         let centerVc = storybord.instantiateViewControllerWithIdentifier("CenterNavigation") as! UINavigationController
-        let leftVc = storybord.instantiateViewControllerWithIdentifier("LeftSideMenuNavigation") as! UINavigationController
+        let leftVc = storybord.instantiateViewControllerWithIdentifier("LeftSIdeMenu") as! UINavigationController
         let rightVc = storybord.instantiateViewControllerWithIdentifier("RightSideMenuNavigation") as! UINavigationController
         let drawerController = DrawerController(centerViewController: centerVc, leftDrawerViewController: leftVc, rightDrawerViewController: rightVc)
         drawerController.restorationIdentifier = "Drawer"
@@ -29,15 +29,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         drawerController.openDrawerGestureModeMask = .All
         drawerController.closeDrawerGestureModeMask = .All
         
-        drawerController.drawerVisualStateBlock = ({ (drawerController: DrawerController, drawerSide: DrawerSide, percentVisible: CGFloat) in
-            
-            if drawerSide == .Left {
-                let sideViewCtl: UIViewController   
-                sideViewCtl = drawerController.leftDrawerViewController!
-                sideViewCtl.view.alpha = percentVisible
-                
-            }
-        })
         window?.rootViewController = drawerController
         window?.makeKeyAndVisible()
         
