@@ -14,6 +14,8 @@
 		FB8734BB1B84A4080042E569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8734BA1B84A4080042E569 /* Assets.xcassets */; };
 		FB8734BE1B84A4080042E569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8734BC1B84A4080042E569 /* LaunchScreen.storyboard */; };
 		FB8734C91B84A4080042E569 /* DemoDrawerControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8734C81B84A4080042E569 /* DemoDrawerControllerUITests.swift */; };
+		FBAA98631B86D6C400B4388F /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA98621B86D6C400B4388F /* LeftSideViewController.swift */; };
+		FBAA98651B86E71300B4388F /* RightSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA98641B86E71300B4388F /* RightSideViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		FB8734C41B84A4080042E569 /* DemoDrawerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoDrawerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8734C81B84A4080042E569 /* DemoDrawerControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDrawerControllerUITests.swift; sourceTree = "<group>"; };
 		FB8734CA1B84A4080042E569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBAA98621B86D6C400B4388F /* LeftSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+		FBAA98641B86E71300B4388F /* RightSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightSideViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			children = (
 				FB8734B31B84A4080042E569 /* AppDelegate.swift */,
 				FB8734B51B84A4080042E569 /* ViewController.swift */,
+				FBAA98621B86D6C400B4388F /* LeftSideViewController.swift */,
+				FBAA98641B86E71300B4388F /* RightSideViewController.swift */,
 				FB8734B71B84A4080042E569 /* Main.storyboard */,
 				FB8734BA1B84A4080042E569 /* Assets.xcassets */,
 				FB8734BC1B84A4080042E569 /* LaunchScreen.storyboard */,
@@ -272,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB8734B61B84A4080042E569 /* ViewController.swift in Sources */,
+				FBAA98631B86D6C400B4388F /* LeftSideViewController.swift in Sources */,
+				FBAA98651B86E71300B4388F /* RightSideViewController.swift in Sources */,
 				FB8734B41B84A4080042E569 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
